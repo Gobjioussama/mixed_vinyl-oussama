@@ -13,11 +13,11 @@ class VinylController extends AbstractController
     public function homePage(): Response
     {
         $tracks = [
-            ['song' => 'Gangsta\'s Paradise', 'artist' => 'Coolio'],
-            ['song' => 'Waterfalls', 'artist' => 'TLC'],
-            ['song' => 'Creep', 'artist' => 'Radiohead'],
-            ['song' => 'Kiss from a Rose', 'artist' => 'Seal'],
-            ['song' => 'On Bended Knee', 'artist' => 'Boyz II Men'],
+            ['song' => 'pardais', 'artist' => 'samara'],
+            ['song' => 'classe s', 'artist' => 'samara'],
+            ['song' => 'code', 'artist' => 'samara'],
+            ['song' => 'ya lili', 'artist' => 'balti'],
+            ['song' => 'ya ana ya ana', 'artist' => 'fayrouz'],
             ['song' => 'Fantasy', 'artist' => 'Mariah Carey'],
         ];
         $title = 'PB & Jams';

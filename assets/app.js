@@ -9,13 +9,4 @@ import './bootstrap.js';
 // any CSS you import will output into a single css file (app.css in this case)
 import './styles/app.css';
 
-console.log("this message is from app.js in the assets file");
-/*
-import { Application } from 'stimulus';
-import { definitionsFromContext } from 'stimulus/webpack-helpers';
-
-// Import all controllers in the controllers directory
-const context = require.context('./controllers', true, /\.js$/);
-const application = Application.start();
-application.load(definitionsFromContext(context));
-*/
+console.log("this message is from app.js file") ;
